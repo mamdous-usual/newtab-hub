@@ -27,7 +27,7 @@
   --warning-color: #ebcb8b;
   --danger-color: #bf616a;
   --progress-bg: rgba(46, 52, 64, 0.1);
-  --progress-fill: linear-gradient(90deg, #5e81ac, #88c0d0);
+  --progress-fill: #5e81ac;
   --todo-complete-bg: rgba(163, 190, 140, 0.15);
   --countdown-bg: rgba(46, 52, 64, 0.05);
 }
@@ -60,7 +60,7 @@
   --warning-color: #ebcb8b;
   --danger-color: #bf616a;
   --progress-bg: rgba(236, 239, 244, 0.1);
-  --progress-fill: linear-gradient(90deg, #88c0d0, #8fbcbb);
+  --progress-fill: #88c0d0;
   --todo-complete-bg: rgba(163, 190, 140, 0.2);
   --countdown-bg: rgba(236, 239, 244, 0.05);
 }
@@ -245,25 +245,10 @@ body {
   height: 100%;
   background: var(--progress-fill);
   border-radius: 6px;
-  transition: width 0.5s ease;
-  position: relative;
+  /* No animation, no transition, no pseudo-elements */
 }
 
-.progress-fill::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
-  animation: shimmer 2s infinite;
-}
 
-@keyframes shimmer {
-  0% { transform: translateX(-100%); }
-  100% { transform: translateX(100%); }
-}
 
 .progress-text {
   text-align: center;

@@ -1,10 +1,10 @@
-# Productivity Hub
+# Productivity Core
 
 A minimal, Nord-themed web app featuring a New Year countdown, todo list, Pomodoro timer, and more. Perfect for productivity enthusiasts who appreciate clean design and privacy.
 
 ## 🌐 Live Demo
 
-[View Live Site](https://homepage-hub.vercel.app/)
+[View Live Site](https://productivitycore.vercel.app/)
 
 ## 📋 About
 

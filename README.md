@@ -1,19 +1,14 @@
-# homepage-hub
+# Productivity Hub
 
-A minimal, Nord-themed home page tab dashboard featuring a New Year countdown, todo list, Pomodoro timer, and more. Perfect for productivity enthusiasts who appreciate clean design and privacy.
+A minimal, Nord-themed web app featuring a New Year countdown, todo list, Pomodoro timer, and more. Perfect for productivity enthusiasts who appreciate clean design and privacy.
 
 ## 🌐 Live Demo
 
 [View Live Site](https://homepage-hub.vercel.app/)
 
-
-## ❓ Why a Web Page, Not an Extension?
-
-I originally planned to release this as a Chrome extension, but publishing to the Chrome Web Store requires a $5 developer fee and additional review steps. By building it as a standalone web page, anyone can use it for free, on any browser, with no installation or account required. Just set it as your home page for the same experience—no barriers, no cost. And can also use this as a productivity tool.
-
 ## 📋 About
 
-homepage-hub is a customizable homepage replacement for your browser. It combines a countdown to the New Year, a persistent todo list, Pomodoro timer, and motivational quotes—all styled with the [Nord](https://www.nordtheme.com/) color palette. No accounts, no tracking, just productivity.
+Productivity Hub is a customizable web app that combines a countdown to the New Year, a persistent todo list, Pomodoro timer, and motivational quotes—all styled with the [Nord](https://www.nordtheme.com/) color palette. No accounts, no tracking, just productivity.
 
 ## 🛠️ Built With
 
@@ -33,16 +28,6 @@ homepage-hub is a customizable homepage replacement for your browser. It combine
 - **Live Clock** — Always-visible current time and date
 - **Motivational Quotes** — Random quote on each visit
 - **Notifications** — Browser and sound alerts for Pomodoro
-
-## 🏠 Set as Your New Tab
-
-**Chrome / Brave / Edge:**
-1. Open the home page option
-2. Enter your deployed site URL
-
-**Firefox:**
-1. Go to `about:preferences#home`
-2. Set Homepage to your deployed site URL
 
 ## 🎨 Nord Color Palette
 
